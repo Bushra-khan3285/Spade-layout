@@ -7,8 +7,8 @@ html {
   scroll-behavior: smooth;
 }
 .navbar-brand{
-    font-weight: 600;
-    font-size: 3.15rem;
+    font-weight: 600 !important;
+    font-size: 3.15rem !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav{
@@ -18,7 +18,7 @@ nav{
 }
 
 nav ul li  {
-    color:white;
+    color:white !important;
     text-decoration: none;
     transition: 0.8s all;
   }
@@ -63,7 +63,7 @@ img{
     width: 100%;
 }
 .card{
-    display: grid;
+    display: grid !important;
     margin-bottom: 1rem;
     grid:2rem 2rem;
     grid-template-columns: repeat(2, 1fr);
@@ -79,7 +79,7 @@ img{
     padding: 2rem;
 }
 .card:nth-child(even) img{
-  order: 2;
+  order:2;
 }
 @media (max-width:700px){
     .card{
